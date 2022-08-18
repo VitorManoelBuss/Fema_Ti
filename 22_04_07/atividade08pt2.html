@@ -1,0 +1,105 @@
+<meta charset="UTF-8">
+<script>
+    let investimento = parseFloat(prompt('Insira o valor investido'));
+    let juros = parseFloat(prompt('Insira a taxa de juros anual (apenas o numeral)'));
+    let dias = parseFloat(prompt('Insira a quantidade de dias que você deixou rendendo'));
+    let lucroDiario = juros / 365;
+    let porcentagem = lucroDiario / 100;
+    let lucroAnual = (investimento * dias) * porcentagem ;
+        
+    function lucro(iof){
+   
+    return lucroAnual
+    }if (dias >= 1) {
+        tabelaRegresiva = 0.96
+    }
+    else if (dias >= 2) {
+        tabelaRegresiva = 0.93
+    }
+    else if (dias >= 3) {
+        tabelaRegresiva = 0.90
+    }
+    else if (dias >= 4) {
+        tabelaRegresiva = 0.86
+    }
+    else if (dias >= 5) {
+        tabelaRegresiva = 0.83
+    }
+    else if (dias >= 6) {
+        tabelaRegresiva = 0.80
+    }
+    else if (dias >= 7) {
+        tabelaRegresiva = 0.76
+    }
+    else if (dias >= 8) {
+        tabelaRegresiva = 0.73
+    }
+    else if (dias >= 9) {
+        tabelaRegresiva = 0.70
+    }
+    else if (dias >= 10) {
+        tabelaRegresiva = 0.66
+    }
+    else if (dias >= 11) {
+        tabelaRegresiva = 0.63
+    }
+    else if (dias >= 12) {
+        tabelaRegresiva = 0.60
+    }
+    else if (dias >= 13) {
+        tabelaRegresiva = 0.56
+    }
+    else  if (dias >= 14) {
+        tabelaRegresiva = 0.53
+    }
+    else if (dias >= 15) {
+        tabelaRegresiva = 0.50
+    }
+    else if (dias >= 16) {
+        tabelaRegresiva = 0.46
+    }
+    else if (dias >= 17) {
+        tabelaRegresiva = 0.43
+    }
+    else if (dias >= 18) {
+        tabelaRegresiva = 0.40
+    }
+    else if (dias >= 19) {
+        tabelaRegresiva = 0.36
+    }
+    else if (dias >= 20) {
+        tabelaRegresiva = 0.33
+    }
+    else if (dias >= 21) {
+        tabelaRegresiva = 0.30
+    }
+    else if (dias >= 22) {
+        tabelaRegresiva = 0.26
+    }
+    else if (dias >= 23) {
+        tabelaRegresiva = 0.23
+    }
+    else if (dias >= 24) {
+        tabelaRegresiva = 0.20
+    }
+    else if (dias >= 25) {
+        tabelaRegresiva = 0.16
+    }
+    else if (dias >= 26) {
+        tabelaRegresiva = 0.13
+    }
+    else if (dias >= 27) {
+        tabelaRegresiva = 0.10
+    }
+    else if (dias >= 28) {
+        tabelaRegresiva = 0.6
+    }
+    else if (dias >= 29) {
+        tabelaRegresiva = 0.3
+    }
+    else if (dias >= 30) {
+        tabelaRegresiva = 1
+    }
+    console.log('Você investiu por ' + dias + ' dias ' + '\nCom o desconto do IOF, seu lucro foi de R$'+ lucroAnual * tabelaRegresiva) 
+
+</script>

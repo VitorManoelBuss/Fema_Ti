@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script>
+let vetorA = [2, 4, 3, 8, 9, 10, 11, 15];
+let vetorB = [11, 15, 20, 30, 40, 2];
+let vetorC = []
+
+for(let i = 0; i < vetorA.length; i++){
+    for(let j = 0; j < vetorB.length; j++){
+        if(vetorA[i] == vetorB[j]){
+            vetorC.push(vetorB[j])
+        }
+
+    }
+}console.log('Os números dos vetores A e B tem em comum os números ' + vetorC)
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fema-flix</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+</head>
+<body>
+    <form onsubmit="salvarFilme(event)">
+    <label>Título</label> <br/>
+    <input id="titulo" type="text"> <br/>
+
+    <br/>
+    
+    <label>Link da imagem</label> <br/>
+    <input id="link" type="text"> <br/>
+    <br/>
+
+    <button type="submit">Salvar</button>
+    <br/>
+    <br/>
+    </form>
+    
+    <div id="listaDeFilmes"></div>
+
+    <script src="femaflix.js"></script>
+
+</body>
+</html>

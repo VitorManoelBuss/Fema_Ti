@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href=".js">
+    <title>ListaAluno</title>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="adicionar(event)">
+            <h3>Nota Aluno</h3>
+            <div class="mb-3">
+                <label class="form-label">Nome do aluno</label>
+                <input type="text" class="form-control" id="nomeAluno">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Nota 1</label>
+                <input type="text" class="form-control" id="nota1" >
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Nota 2</label>
+                <input type="text" class="form-control" id="nota2" >
+            </div>
+
+            <button type="submit" class="btn btn-primary">Adicionar</button>
+        </form>
+
+        <table class="table mt-3">
+            <thead>
+              <tr>
+                <th >Nome</th>
+                <th >Nota 1</th>
+                <th >Nota 2</th>
+                <th >Média</th>
+              </tr>
+            </thead>
+            <tbody id="resultado">
+            </tbody>
+          </table>
+    </div>
+
+</body>
+</html>

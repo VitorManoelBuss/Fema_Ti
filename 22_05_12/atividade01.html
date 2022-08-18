@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    let notas = [];
+    
+    for(let i = 0; i < 5; i++){
+        let nota = parseInt(prompt('Informe sua nota'))
+        notas.push(nota);
+    }
+    console.log('Suas notas são :')
+        let soma = 0;
+        for(let i = 0; i < notas.length; i++){
+            console.log(notas[i]);
+            soma = soma + notas[i];
+    }
+    let media = soma / 5;
+    console.log('Sua média é de ' + media + ' pontos');
+</script>

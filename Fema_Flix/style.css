@@ -1,0 +1,22 @@
+#listaDeFilmes{
+    border: 2px solid rgb(0, 0, 0);
+    justify-content: space-evenly;
+    border-radius: 3px;
+
+}
+
+#linha{
+    display:inline-flex;
+}
+
+#imagem{
+    border: 2px;
+    border-radius: 2px;
+    
+}
+
+#imagem:hover{
+    color: blueviolet;
+    border: 2px;
+    padding: 2px;
+}

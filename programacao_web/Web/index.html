@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>FEMA-FLIX</title>
+</head>
+<body onload="inicializar()">
+    
+    <form onsubmit="salvarFilme(event)">
+        <input type="hidden" id="idFilme">
+        <label>Título do Filme</label> <br>
+        <input id="titulo" type="text"> <br>
+
+        <br>
+
+        <label> Link da Imagem</label> <br>
+        <input type="text" id="link"> <br>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    <div id="listaDeFilmes"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
